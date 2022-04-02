@@ -20,7 +20,7 @@ $result_update=mysqli_query($conn,"UPDATE users SET password='$password' WHERE u
 if($result_update){
 $showAlert = true;
 $showError=false;
-header('location:login.php');
+header('location:password-reset-sucessfully.html');
 
     }
 }
